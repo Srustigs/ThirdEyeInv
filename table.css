@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:  rgb(174, 144, 99);
+}
+table {
+    align-items: center;
+    width: 90%;
+    border-collapse: collapse;
+    
+    
+}
+th, td {
+    border: 1px solid #0a0909;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: rgb(115, 81, 39);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.student-list li {
+    margin-bottom: 5px;
+}

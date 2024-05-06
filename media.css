@@ -1,0 +1,37 @@
+body {
+    background-image: url("music.jpg");
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    max-width: 800px;
+    margin: 70px auto;
+    padding: 30px;
+    background-color: rgba(142, 123, 125, 0.5); 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+h1 {
+    text-align: center;
+}
+.media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.media-item {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+}
+audio, video, img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(225, 222, 222, 0.1);
+}
+.media-item h2 {
+    margin-top: 10px;
+    text-align: center;
+}
